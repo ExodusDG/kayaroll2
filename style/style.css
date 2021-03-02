@@ -1133,7 +1133,7 @@ input:focus {
     }
 }
 
-@media (max-width:860px) {
+@media (max-width:861px) {
     .mobile__navbar__list {
         top: 35vh;
         position: absolute!important
@@ -1240,7 +1240,7 @@ input:focus {
     }
 }
 
-@media (max-width:780px) {
+@media (max-width:781px) {
     .navbar__active {
         height: 100vh;
         width: 135vw;
@@ -1591,7 +1591,7 @@ input:focus {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:601px) {
     .header__navbar {
         z-index: 999;
         width: 45%;
@@ -2116,7 +2116,7 @@ input:focus {
     }
 }
 
-@media (max-width:530px) {
+@media (max-width:531px) {
     .header__body_text {
         left: -2%;
         margin-bottom: 40px
@@ -2233,6 +2233,12 @@ input:focus {
 }
 
 @media (max-width:491px) {
+    .header__body_text h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+        width: 440px;
+        margin-left: 10%;
+    }
     .navbar__item img {
         position: relative;
         margin-top: 5%;
@@ -2277,16 +2283,28 @@ input:focus {
         right: -15%;
         margin-top: 3%
     }
-    .header__body_text h1 {
-        font-size: 28px;
-        margin-bottom: 10px;
-        width: 430px;
-        margin-left: 9%
-    }
     .header__body_text p {
         font-size: 20px;
         width: 355px;
         margin-left: 16%
+    }
+    .card_tablet>.about__card_title {
+        width: 400px;
+        font-size: 32px;
+        position: relative;
+        right: 2%;
+    }
+    .about__card_tablet p {
+        width: 460px;
+        position: relative;
+        right: 6%;
+    }
+    .about__body_card h1 {
+        font-size: 38px;
+        font-weight: 700;
+        margin: 0 auto;
+        right: 5%;
+        position: relative;
     }
     .tablet__header_adaptive {
         width: 44%;
@@ -2305,6 +2323,12 @@ input:focus {
         position: relative;
         right: 10%
     }
+    .mission {
+        padding: 20px 0 10px 0;
+        height: 245px;
+        width: 600px;
+        margin-top: 850px;
+    }
     .mission__title {
         font-size: 28px;
         position: relative;
@@ -2318,11 +2342,16 @@ input:focus {
         font-size: 20px;
         line-height: 30px
     }
-    .mission {
-        padding: 10px 0 10px 0;
-        height: 245px;
-        width: 600px;
-        margin-top: 700px
+    .navbar__item img {
+        position: relative;
+        margin-top: 5%;
+        width: 95%;
+        margin-left: 12%;
+    }
+    .blog__post {
+        text-align: left;
+        position: relative;
+        left: 64vw;
     }
     .solve__title_text {
         font-size: 28px;
@@ -2415,7 +2444,7 @@ input:focus {
         margin-bottom: 20px;
     }
     .about__card_tablet p {
-        width: 400px;
+        width: 390px;
         left: 10px;
         position: relative;
     }
@@ -2591,7 +2620,24 @@ input:focus {
     }
 }
 
-@media (max-width:414px) {
+@media (max-width:415px) {
+    .about__card_tablet p {
+        width: 380px;
+        left: 10px;
+        position: relative;
+    }
+    .blog__post {
+        text-align: left;
+        position: relative;
+        left: 65.5vw;
+    }
+    .mission {
+        padding: 20px 0 10px 0;
+        height: 245px;
+        width: 600px;
+        margin-top: 650px;
+        position: relative;
+    }
     .navbar__item img {
         position: relative;
         margin-top: 5%;
@@ -2765,7 +2811,21 @@ input:focus {
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:376px) {
+    .about__body_card {
+        margin-bottom: 40px;
+        margin-top: 0px;
+    }
+    .about__card_tablet p {
+        width: 380px;
+        left: 0px;
+        position: relative;
+    }
+    .mission__title {
+        font-size: 28px;
+        position: relative;
+        left: -19%;
+    }
     .mobile__hamburger {
         position: relative;
         right: 17%;
@@ -2910,7 +2970,14 @@ input:focus {
     }
 }
 
-@media (max-width:360px) {
+@media (max-width:361px) {
+    .header__body_text h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        width: 300px;
+        line-height: 40px;
+        margin-left: 21%;
+    }
     .navbar__item img {
         margin-left: 0%;
     }
@@ -2926,17 +2993,17 @@ input:focus {
         margin-top: 600px;
         position: relative;
     }
-    .header__body_text h1 {
-        font-size: 28px;
-        margin-bottom: 10px;
-        width: 300px;
-        margin-left: 21%;
-    }
     .body__timer_text {
         font-size: 20px;
         text-align: center;
         width: 220px;
         left: -2%;
+    }
+    .header__body_text {
+        left: -4%;
+        width: 300px;
+        margin-bottom: 90px;
+        margin-top: -8%;
     }
     .play__button {
         position: absolute;
@@ -3031,7 +3098,7 @@ input:focus {
     }
 }
 
-@media (max-width:320px) {
+@media (max-width:321px) {
     .play__image {
         width: 56%;
         height: 73%;
@@ -3066,11 +3133,17 @@ input:focus {
         height: 400px
     }
     .header__mobile>.header__body_timer {
-        padding: 0 25px 0 0
+        padding: 20px 25px 0 0;
     }
     .register__button {
         bottom: 5%;
         right: 0
+    }
+    .footer__navbar ul>li>img {
+        width: 140px;
+        position: relative;
+        text-align: center;
+        left: 22%;
     }
     .mobile__hamburger {
         position: relative;
